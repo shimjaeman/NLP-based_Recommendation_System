@@ -48,7 +48,7 @@
 
   - NLP K-means [ [K-means](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/6) ]
   
-  - NLP Labeling [ [Labeling] (https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/7) ]
+  - NLP Labeling [[Labeling](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/7)]
 
   - NLP 유사도 비교 [[유사도 비교](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/8)]
  

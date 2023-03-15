@@ -38,7 +38,7 @@
   
   3. Category_Data : 
   
-  4. Data Train Structure [ [Data Structure](https://user-images.githubusercontent.com/95950967/225327933-f4673f86-dac2-4c72-b5fb-d00925a06461.png) ]
+  4. Data Train Structure [ [Data Structure](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/4) ]
 
 ### 2. EDA
   - NLP 픽 제목의 워드 클라우드 부분 [ [WORDCLOUD](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/3#issue-1625549103) ]
@@ -46,9 +46,6 @@
   - NLP 클러스터링  [ [Clustering](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/5) ]
 
   - NLP K-means [ [K-means](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/6) ]
-  
-  - NLP Labeling [ [Labeling](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/7) ]
- 
  
 ### 3. 프로젝트 파일 구조
 
@@ -59,14 +56,16 @@
 ### 5. Conclusion
 
 ### 6. 참고논문 및 사이트
-  * Docker :
+  * [Docker](https://docker-curriculum.com/)
   
-  * Airflow :
+  * [Airflow](https://www.bucketplace.com/post/2021-04-13-%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4-airflow-%EB%8F%84%EC%9E%85%EA%B8%B0/)
   
-  * BentoML :
+  * [BentoML](https://docs.bentoml.org/en/latest/)
   
-  * Hugging Face :
+  * [Hugging Face](https://huggingface.co/docs/transformers/main_classes/pipelines)
   
-  * Zero-shot Text Classification :
+  * [Zero-shot Text Classification](https://arxiv.org/abs/2210.17541)
   
-  * Few-shot Text Classification :
+  * [Few-shot Text Classification](https://arxiv.org/abs/2103.07552)
+ 
+  * [Feature Extraction](https://huggingface.co/tasks/feature-extraction)

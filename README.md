@@ -21,7 +21,7 @@
  <img src="https://img.shields.io/badge/BentoML-FF61F6?style=for-the-badge&logo=BentoML&logoColor=white">
  <img src="https://img.shields.io/badge/Hugging_Face-ECD53F?style=for-the-badge&logo=HuggingFace&logoColor=white">
 
-## 문제 정의 및 목표
+## 0.문제 정의 및 목표
 
 ## 데이터셋
   1. Piks_Data : 

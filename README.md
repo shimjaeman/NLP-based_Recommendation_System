@@ -39,11 +39,7 @@
   3. Category_Data : 
 
 ### 2. EDA
-
-NLP 픽 제목의 워드 클라우드 부분
-
-![WORDCLOUD](https://user-images.githubusercontent.com/114843451/225322957-a93a37ea-2b87-4d5c-8d70-054320c02b86.png)
-
+  - NLP 픽 제목의 워드 클라우드 부분 [ [WORDCLOUD](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/3#issue-1625549103) ]
 ### 3. 프로젝트 파일 구조
 
 ### 3. Modeling

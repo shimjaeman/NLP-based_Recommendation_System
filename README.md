@@ -37,14 +37,11 @@
   2. Links_Data : 
   
   3. Category_Data : 
+  
+  4. Data Train Structure [ [Data Structure](https://user-images.githubusercontent.com/95950967/225327933-f4673f86-dac2-4c72-b5fb-d00925a06461.png) ]
 
 ### 2. EDA
   - NLP 픽 제목의 워드 클라우드 부분 [ [WORDCLOUD](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/3#issue-1625549103) ]
-      
-  - NLP 클러스터링  [ [Clustering](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/5) ]
-  
-  - NLP K-means [ [K-means](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/6) ]
-  
 ### 3. 프로젝트 파일 구조
 
 ### 3. Modeling

@@ -47,7 +47,7 @@
 
   - NLP K-means [ [K-means](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/6) ]
   
-  - NLP Labeling [ [Labeling] https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/7]
+  - NLP Labeling [ [Labeling] https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/7) ]
  
 ### 3. 프로젝트 파일 구조
 

@@ -43,6 +43,8 @@
       
   - NLP 클러스터링  [ [Clustering](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/5) ]
   
+  - NLP K-means [ [K-means](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/6) ]
+  
 ### 3. 프로젝트 파일 구조
 
 ### 3. Modeling

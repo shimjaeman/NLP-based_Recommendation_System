@@ -31,6 +31,7 @@
 
   - 목표 : 데이터 부족을 해결하기 위하여, 전이학습 모델을 사용하여 사용자가 원하는 추천 정보를 제공하는 것이 목표이다.
  
+ 
 ### 1. 데이터셋
   1. Piks_Data : 
   
@@ -39,6 +40,7 @@
   3. Category_Data : 
   
   4. Data Train Structure [ [Data Structure](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/4) ]
+
 
 ### 2. EDA
 
@@ -52,8 +54,41 @@
 
   - NLP 유사도 비교 [[유사도 비교](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/8)]
  
-### 3. 프로젝트 파일 구조
 
+### 3. 프로젝트 파일 구조
+```
+.
+├─dags
+│  ├─bentoml
+│  │  └─link_rec_bento
+│  │      └─__pycache__
+│  ├─data
+│  ├─functions
+│  │  └─__pycache__
+│  └─__pycache__
+├─logs
+│  ├─dag_id=link_rec_airflow
+│  │  └─run_id=manual__2023-03-08T07_22_16.398594+00_00
+│  │      ├─task_id=calculate_emb_vector
+│  │      ├─task_id=clear_bento
+│  │      ├─task_id=create_bento
+│  │      ├─task_id=linktitle_data_to_torch
+│  │      ├─task_id=make_bento_model
+│  │      ├─task_id=piktitle_data_to_torch
+│  │      ├─task_id=raw_data_preprocess
+│  │      ├─task_id=save_processed_data
+│  │      └─task_id=serve_bentoml
+│  ├─dag_processor_manager
+│  └─scheduler
+│      └─2023-03-08
+│          ├─bentoml
+│          │  └─link_rec_bento
+│          ├─data
+│          └─functions
+└─server
+    └─db
+
+```
 ### 3. Modeling
 
 ### 4. 구현

@@ -1,44 +1,48 @@
-# SK플래닛 T아카데미 ASAC 기업프로젝트
+# ASAC 기업프로젝트
 
-## NLP 기반 링크 추천 시스템 개발 
+## 🗸 NLP 기반 링크 추천 시스템 개발 (23.02.15 ~ 23.03.09)
 
-## 프로젝트 일정 (23.02.15 ~ 23.03.09)
-
-## 참여 인원 및 역할 
+### 1. 참여 인원 및 역할 
 |                이름                           |                  역할                  |
 | :--------------------------------------------:| :------------------------------------: |
 |  [손용원](https://github.com/ywonson)         |          Full Stack Developer          |
 |  [심재만](https://github.com/shimjaeman)      |        Machine Learning Engineer       |
 |  [손태산](https://github.com/steadyfox2)      |      Project Manager, Data Analyst     |
 
-## Tech Stack
+### 2. Tech Stack
 <div align=left> 
  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white">
- <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
- <img src="https://img.shields.io/badge/Slack-000000?style=for-the-badge&logo=Slack&logoColor=white"><br/>
+ <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"><br/>
+ <img src="https://img.shields.io/badge/Slack-000000?style=for-the-badge&logo=Slack&logoColor=white">
  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=Airflow&logoColor=white"> 
  <img src="https://img.shields.io/badge/BentoML-FF61F6?style=for-the-badge&logo=BentoML&logoColor=white">
  <img src="https://img.shields.io/badge/Hugging_Face-ECD53F?style=for-the-badge&logo=HuggingFace&logoColor=white">
 
-## 0.문제 정의 및 목표
+## 🗸 프로젝트 진행
 
-## 데이터셋
+### 0. 문제 정의 및 목표
+
+### 1. 데이터셋
   1. Piks_Data : 
   
   2. Links_Data : 
   
   3. Category_Data : 
 
-## EDA
+### 2. EDA
 
-## Modeling
+### 3. 프로젝트 파일 구조
 
-## Conclusion 
+### 3. Modeling
 
-## 참고논문 및 사이트
+### 4. 구현
+
+### 5. Conclusion
+
+### 6. 참고논문 및 사이트
   * Docker :
   
   * Airflow :
@@ -47,6 +51,6 @@
   
   * Hugging Face :
   
-  * Zero-shot Text Classification
+  * Zero-shot Text Classification :
   
-  * Few-shot Text Classification
+  * Few-shot Text Classification :

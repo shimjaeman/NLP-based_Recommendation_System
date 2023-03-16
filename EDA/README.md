@@ -1,5 +1,21 @@
 # EDA
 
+<details><summary><h3>WordCloud</h3></summary>
+
+- **`Wordcloud`**
+  - Pik_title의 
+  - 
+
+- **`Korean Wordcloud`** : 발생요일에 관한 정보  
+  - 
+  ![Korean](https://user-images.githubusercontent.com/95950967/225325427-f0fef2a7-297a-47d4-80df-018cec1c45e5.png))
+  
+- **`English Wordcloud`** 
+  - 
+  
+</details>
+
+
   ### NLP 픽 제목의 워드 클라우드 부분 [ [WORDCLOUD](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/3#issue-1625549103) ]
  
    stylecloud를 사용하여 영어와 한국어 제목을 워드 클라우드로 표현하였다.

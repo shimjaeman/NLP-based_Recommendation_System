@@ -3,7 +3,9 @@
 ## 🗸 NLP 기반 링크 추천 시스템 개발 (23.02.15 ~ 23.03.09)
 
 ### 0. 개요 
-**NLP 기반 링크 추천 시스템**은 기존의 서비스를 이용하는 사용자가 저장한 데이터 중에서 유사도가 가장 높은 객체를 추천해주는 시스템이다.
+**NLP 기반 링크 추천 시스템**은 기존의 서비스를 이용하는 사용자가 
+
+저장한 데이터 중에서 유사도가 가장 높은 객체를 추천해주는 시스템이다.
 
 ### 1. 참여 인원 및 역할 
 |                이름                           |                  역할                  |
@@ -27,48 +29,20 @@
 ## 🗸 프로젝트 진행
 
 ### 0. 문제 정의 및 목표
-  - 문제 정의 : 기존 추천 시스템은 데이터가 부족하여 사용자가 원하는 정보를 추천해주지 못하였다. 
+  - 문제 정의 : 기존 추천 시스템은 데이터가 부족하여 사용자가 원하는 정보를 적절히 추천해주지 못함 
 
-  - 목표 : 데이터 부족을 해결하기 위하여, 전이학습 모델을 사용하여 사용자가 원하는 추천 정보를 제공하는 것이 목표이다.
- 
+  - 목표 : 데이터 부족으로 인한 문제를 해결하기 위해, 전이학습 모델을 활용하여 사용자가 원하는 추천 정보를 제공하는 것
  
 ### 1. 데이터셋
-  1. Piks_Data : 사용자가 원하는 링크들을 모아둔 링크 모음 데이터 
+  1. Piks_Data : 사용자가 만든 주제와 관련된 데이터
   
-  2. Links_Data : 링크 데이터 
+  2. Category_Data : 각 주제를 카테고리로 나누고, 해당 카테고리 안에 링크를 담을 수 있도록 생성된 데이터
   
-  3. Category_Data : 링크 데이터가 어떤 주제에 속하는지에 대한 데이터 
-  
+  3. Links_Data : 주제와 카테고리에 맞게 URL 주소 및 해당 URL의 이름을 저장한 데이터
+ 
   4. Data Train Structure [ [Data Structure](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/4) ]
 
-
-### 2. EDA
-
-  #### NLP 픽 제목의 워드 클라우드 부분 [ [WORDCLOUD](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/3#issue-1625549103) ]
- 
-    stylecloud를 사용하여 영어와 한국어 제목을 워드 클라우드로 표현하였다.
-    서비스를 이용하는 사용자가 어떤 주제에 관심이 있는지 확인하였습니다.
-    
-  #### NLP 클러스터링  [ [Clustering](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/5) ]
- 
-    단어간 군집을 살펴보기 위해서 클러스터링 기법을 사용하였습니다.
-    ISOMAP과 T-SNE은 차원 축소 기법 중 하나로, 고차원 데이터를 저차원으로 변환하여 단어 간의 관계를 파악할 수 있습니다.
-    
-  #### NLP K-means [ [K-means](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/6) ]
- 
-    K-means 클러스터링은 단어들을 서로 비슷한 군집으로 묶을 수 있습니다.
-    따라서, ISOMAP과 T-SNE을 이용하여 단어 간의 군집을 시각화하고, K-means 클러스터링을 이용하여 군집화된 단어들을 묶어보았습니다.
-    
-  #### NLP Labeling [[Labeling](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/7)]
- 
-    픽 제목을 기준으로 라벨링 작업을 하였다. 
-
-  #### NLP 유사도 비교 [[유사도 비교](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/8)] 
- 
-    라벨링 분류를 통해서 만들어진 주제들을 유사도 비교를 하였습니다.
-
-
-### 3. 프로젝트 파일 구조
+### 2. 프로젝트 파일 구조
 ```
 .
 ├─dags
@@ -102,13 +76,12 @@
     └─db
 
 ```
-### 3. Modeling
 
-### 4. 구현
+### 3. 구현
 
-### 5. Conclusion
+### 4. Conclusion
 
-### 6. 참고논문 및 사이트
+### 5. 참고논문 및 사이트
   * [Docker](https://docker-curriculum.com/)
   
   * [Airflow](https://www.bucketplace.com/post/2021-04-13-%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4-airflow-%EB%8F%84%EC%9E%85%EA%B8%B0/)

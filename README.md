@@ -33,11 +33,11 @@
  
  
 ### 1. 데이터셋
-  1. Piks_Data : 
+  1. Piks_Data : 사용자가 원하는 링크들을 모아둔 링크 모음 데이터 
   
-  2. Links_Data : 
+  2. Links_Data : 링크 데이터 
   
-  3. Category_Data : 
+  3. Category_Data : 링크 데이터가 어떤 주제에 속하는지에 대한 데이터 
   
   4. Data Train Structure [ [Data Structure](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/4) ]
 

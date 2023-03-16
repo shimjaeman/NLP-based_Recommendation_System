@@ -2,8 +2,8 @@
 
   ### NLP 픽 제목의 워드 클라우드 부분 [ [WORDCLOUD](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/3#issue-1625549103) ]
  
-    stylecloud를 사용하여 영어와 한국어 제목을 워드 클라우드로 표현하였다.
-    서비스를 이용하는 사용자가 어떤 주제에 관심이 있는지 확인하였습니다.
+   stylecloud를 사용하여 영어와 한국어 제목을 워드 클라우드로 표현하였다.
+   서비스를 이용하는 사용자가 어떤 주제에 관심이 있는지 확인하였습니다.
     
   ### NLP 클러스터링  [ [Clustering](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/5) ]
     
@@ -15,12 +15,12 @@
     
   ### NLP K-means [ [K-means](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/6) ]
  
-    K-means 클러스터링을 이용하여 군집화된 단어들을 묶어보았습니다. 군집화된 단어를 기준으로 주제를 분류하였다. 
+    K-means 클러스터링을 이용하여 군집화된 단어들을 묶어보았습니다. 군집화된 단어를 기준으로 주제를 분류하는데 참고하였습니다. 
     
   ### NLP Labeling [[Labeling](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/7)]
  
-    픽 제목을 기준으로 라벨링 작업을 하였다. 
+    클러스터링 결과를 바탕으로 픽 제목을 보고 라벨링 작업을 해주었습니다.
 
   ### NLP 유사도 비교 [[유사도 비교](https://github.com/shimjaeman/NLP-based_Recommendation_System/issues/8)] 
  
-    라벨링 분류를 통해서 만들어진 주제들을 유사도 비교를 하였습니다.
+    라벨링 분류를 통해서 만들어진 주제들을 유사도 비교를 하였습니다. AI주제는 개발주제와 가장 유사도가 높습니다. 

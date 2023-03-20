@@ -150,12 +150,15 @@
 <details><summary><h3>Model Deployment</h3></summary>
 
 - **`Airflow Dags`**
-  - 
+
+  <img src = "https://user-images.githubusercontent.com/95950967/226339811-edeb455c-d09a-4c84-a07d-b0cc0a258a5c.png" width="80%" height="100%">
   
 - **`Airflow Graph View`**
-  - 
+
+  <img src = "https://user-images.githubusercontent.com/95950967/226339817-bea90e87-dab0-471d-91cc-ffdf5f821a25.png" width="80%" height="100%">
   
 - **`BentoML API`**
-  - 
 
-</details>
+  <img src = "https://user-images.githubusercontent.com/95950967/226339815-7f218a28-5a24-4db0-9815-51a4ae9ff044.png" width="80%" height="100%">
+  
+  </details>
